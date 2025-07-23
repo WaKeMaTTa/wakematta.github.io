@@ -6,7 +6,7 @@ title: My Pilgrimage
 
 Allow me to share with you all the CGMJCI congregations around the world that I’ve had the honor of attending.
 
-So far, I have visited 17 churches across four countries: France, Switzerland, Germany, and Italy.
+So far, I have visited 17 churches across five countries: France, Switzerland, Germany, Austria, and Italy.
 
 <div id="map" style="height: 500px;"></div>
 
