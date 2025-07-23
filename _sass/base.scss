@@ -25,23 +25,23 @@ $text-color: #222222;
 /*- Base settings -*/
 
 html {
-	background-color: $background-color;
-	font-size: 16px;
-	@media (min-width: 940px) {
-		font-size: 18px;
-	}
-	line-height: 1.5;
-	color: $text-color;
+  background-color: $background-color;
+  font-size: 16px;
+  @media (min-width: 940px) {
+    font-size: 18px;
+  }
+  line-height: 1.5;
+  color: $text-color;
 }
 
 
 /*- Link -*/
 a {
-	color: $main-color;
-	text-decoration: none;
-	font-weight: 700;
-	&:hover,
-	&:focus {
-		color: darken($main-color, 5%);
-	}
+  color: $main-color;
+  text-decoration: none;
+  font-weight: 700;
+  &:hover,
+  &:focus {
+    color: darken($main-color, 5%);
+  }
 }

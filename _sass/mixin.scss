@@ -3,7 +3,7 @@
 // Nav menu
 
 @mixin icon-position($position) {
-	display: block;
+  display: block;
   position: fixed;
   top: 35px;
   #{$position}: 25px;
@@ -12,7 +12,7 @@
 }
 
 @mixin open($x) {
-	-webkit-transform: translateX($x);
+  -webkit-transform: translateX($x);
      -moz-transform: translateX($x);
       -ms-transform: translateX($x);
           transform: translateX($x);
@@ -23,7 +23,7 @@
 }
 
 @mixin nav-position($position) {
-	width: 14rem;
+  width: 14rem;
   position: fixed;
   background-color: $main-color;
   top: 0;

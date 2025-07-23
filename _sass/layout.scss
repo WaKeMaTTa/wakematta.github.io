@@ -2,7 +2,7 @@
 
 /* Navigation */
 
-#nav, #nav-left { 
+#nav, #nav-left {
   a {
     display: block;
     color: $background-color;
@@ -111,31 +111,31 @@
 }
 
 #container {
-	margin:0 auto;
-	max-width: 730px;
-	padding: 0 1.5rem;
+  margin:0 auto;
+  max-width: 730px;
+  padding: 0 1.5rem;
 }
 
 #header {
-	text-align: center;
+  text-align: center;
   padding: 24px 0;
   position: relative;
   a {
-  	text-decoration: none;
-  	color: $text-color;
-  	display: inline-block;
+    text-decoration: none;
+    color: $text-color;
+    display: inline-block;
   }
   img {
-  	max-height: 72px;
-  	margin: 0 auto;
-  	display: block;
+    max-height: 72px;
+    margin: 0 auto;
+    display: block;
   }
   h1 {
-  	font-family: 'Signika', sans-serif; //Emerald logo font
+    font-family: 'Signika', sans-serif; //Emerald logo font
     font-weight: 600;
   }
   &:after {
-  	display: block;
+    display: block;
     content: '';
     width: 5rem;
     height: 1px;
