@@ -6,7 +6,7 @@ title: My Pilgrimage
 
 Allow me to share with you all the CGMJCI congregations around the world that I’ve had the honor of attending.
 
-So far, I have visited 17 churches across five countries: France, Switzerland, Germany, Austria, and Italy.
+So far, I have visited 21 churches across five countries: France, Switzerland, Germany, Austria, Italy, and Spain.
 
 <div id="map" style="height: 500px;"></div>
 
@@ -99,6 +99,26 @@ So far, I have visited 17 churches across five countries: France, Switzerland, G
       coordinates: [45.0481003, 7.67399],
       visit_card_url: "https://direcciones.idmji.org/en/iglesia/683/",
     },
+    {
+      location_name: "Girona, Spain",
+      coordinates: [41.959880071, 2.8075326327],
+      visit_card_url: "https://direcciones.idmji.org/en/iglesia/543/",
+    },
+    {
+      location_name: "Barcelona, Spain",
+      coordinates: [41.4338119, 2.201420487],
+      visit_card_url: "https://direcciones.idmji.org/en/iglesia/113/",
+    },
+    {
+      location_name: "Vallecas (Madrid), Spain",
+      coordinates: [40.37426158245932, -3.6452494723892905],
+      visit_card_url: "https://direcciones.idmji.org/en/iglesia/106/",
+    },
+    {
+      location_name: "Torrejón de Ardoz (Madrid), Spain",
+      coordinates: [40.45092792139156, -3.457508482456896],
+      visit_card_url: "https://direcciones.idmji.org/en/iglesia/145/",
+    },
   ]
 
 
@@ -111,7 +131,7 @@ So far, I have visited 17 churches across five countries: France, Switzerland, G
   }
 
   waitForLeaflet(() => {
-    var map = L.map('map').setView([46.1665, 6.7248], 5);
+    var map = L.map('map').setView([44.02101, 1.6337], 5);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
