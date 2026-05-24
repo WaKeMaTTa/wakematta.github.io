@@ -6,7 +6,7 @@ title: My Pilgrimage
 
 Allow me to share with you all the CGMJCI congregations around the world that I’ve had the honor of attending.
 
-So far, I have visited 21 churches across five countries: France, Switzerland, Germany, Austria, Italy, and Spain.
+So far, I have visited 22 churches across five countries: France, Switzerland, Germany, Austria, Italy, and Spain.
 
 <div id="map" style="height: 500px;"></div>
 
@@ -98,6 +98,11 @@ So far, I have visited 21 churches across five countries: France, Switzerland, G
       location_name: "Torino, Italy",
       coordinates: [45.0481003, 7.67399],
       visit_card_url: "https://direcciones.idmji.org/en/iglesia/683/",
+    },
+    {
+      location_name: "Saint-Étienne, France",
+      coordinates: [45.46696692, 4.377788901],
+      visit_card_url: "https://direcciones.idmji.org/en/iglesia/1242/",
     },
     {
       location_name: "Girona, Spain",
